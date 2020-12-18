@@ -1,0 +1,140 @@
+body {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  margin: 0;
+}
+.wrapper {
+  max-width: 1366px;
+  margin: auto;
+  /* border: 1px solid red; */
+}
+.header-background {
+  background: #2A2A2A;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  background: #2A2A2A;
+  align-items: center;
+  /* position: fixed; */
+  /* left: 0; */
+  top: 0;
+  height: 56px;
+}
+.header-logo-menu {
+  display: flex;
+  justify-content: space-between;
+}
+.header-menu {
+  display: flex;
+  color: white;
+  list-style: none;
+  gap: 15px;
+  text-transform: uppercase;
+  font-size: 14px;
+  align-items: center;
+}
+.header-menu a {
+  color: gray;
+  text-decoration: none;
+}
+.header-button {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.button-inicio {
+  display: flex;
+  /* border: 1px solid red; */
+  margin: 0 20px;
+}
+.button-inicio img {
+  fill: white;
+}
+.button-inicio button {
+  background: none;
+  border: none;
+  color: white;
+}
+.download{
+  /* border: 1px solid red; */
+  padding: 20px;
+  background: #FFFF01;
+  text-transform: uppercase;
+  border: none;
+}
+.ventajas {
+  width: 882px;
+  margin: auto;
+  position: relative;
+  top: -60px;
+}
+.ventajas-box {
+  margin-bottom: 100px;
+  align-items: center;
+}
+.ventajas-box  p {
+  font-size: 18px;
+  font-weight: 600;
+  width: 800px;
+  margin: auto;
+  line-height: 32px;
+  text-align: center;
+  margin-top: 20px;
+}
+.ventajas-box h2 {
+  color: #4DCCFA;
+  font-weight: 600;
+  font-size: 40px;
+  width: 700px;
+  margin: auto;
+  line-height: 64px;
+  margin-top: 0 16px;
+  margin-top: 70px;
+  text-transform: uppercase;
+  text-align: center
+}
+.footer-container {
+  background: #2A2A2A;
+  padding: 50px 0;
+}
+.footer-menu {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  color: gray;
+}
+.footer-menu a {
+  list-style-type: none;
+  color: white;
+  text-decoration: none;
+}
+.footer-menu ul {
+  list-style: none;
+  text-decoration: none;
+  line-height: 30px;
+}
+.footer-imagalogo {
+  /* border: 1px solid red; */
+  margin: auto;
+  width: 100px;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 30px;
+}
+.hero img {
+  width: 100vw;
+  height: 1025px;
+  object-fit: cover;
+}
+.svg {
+  fill: white;
+  width: 25px;
+  background: none;
+}
+.personajes img {
+  width: 100vw;
+  object-fit: contain;
+  height: 768.38px;
+}
